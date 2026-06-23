@@ -1,5 +1,6 @@
 ---
 title: "身份是脚手架，不是房子"
+title_en: "Identity Is Scaffolding, Not the House"
 chapter: 7
 status: draft
 created: 2026-06-23

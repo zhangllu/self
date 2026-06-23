@@ -1,5 +1,6 @@
 ---
 title: "哪些学科、组织和作品正在回答它"
+title_en: "Which Disciplines, Organizations, and Works Are Already Answering It"
 chapter: 4
 status: draft
 created: 2026-06-23

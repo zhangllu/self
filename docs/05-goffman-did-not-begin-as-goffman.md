@@ -1,5 +1,6 @@
 ---
-title: "戈夫曼没有先成为“戈夫曼”"
+title: “戈夫曼没有先成为”戈夫曼””
+title_en: “Goffman Did Not Begin as 'Goffman'”
 chapter: 5
 status: revised
 created: 2026-06-23

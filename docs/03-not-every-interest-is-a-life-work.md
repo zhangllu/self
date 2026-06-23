@@ -1,5 +1,6 @@
 ---
 title: "不是所有关注都要变成一生的事业"
+title_en: "Not Every Interest Needs to Become a Life's Work"
 chapter: 3
 status: draft
 created: 2026-06-23

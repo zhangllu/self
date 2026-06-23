@@ -1,5 +1,6 @@
 ---
 title: "抓住我的，甚至不一定是一个问题"
+title_en: "What Grabs Me May Not Even Be a Question Yet"
 chapter: 2
 status: draft
 created: 2026-06-23

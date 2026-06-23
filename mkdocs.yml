@@ -1,0 +1,78 @@
+# MkDocs configuration for GitHub Pages
+site_name: 不要太早把自己变成一种身份
+site_description: 一本仍在生长中的小册子，关于现象、问题、作品和身份的生成
+site_author: zhangllu
+repo_url: https://github.com/zhangllu/self
+repo_name: zhangllu/self
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - 首页: index.md
+  - 序言: 00-preface.md
+  - 第一篇：我不是没有方向，只是太早想定位: 01-too-early-to-position.md
+  - 第二篇：抓住我的，甚至不一定是一个问题: 02-before-question-is-phenomenon.md
+  - 第三篇：不是所有关注都要变成一生的事业: 03-not-every-interest-is-a-life-work.md
+  - 第四篇：哪些学科、组织和作品正在回答它: 04-existing-answers.md
+  - 第五篇：戈夫曼没有先成为"戈夫曼": 05-goffman-did-not-begin-as-goffman.md
+  - 第六篇：作品和组织也在反过来塑造我: 06-works-and-organizations-shape-me.md
+  - 第七篇：身份是脚手架，不是房子: 07-identity-is-scaffolding.md
+  - 结语：身份是沉淀，不是起点: 08-conclusion.md
+  - 辅助:
+    - 现象清单: ../notes/phenomenon-list.md
+    - 材料库: ../notes/material-bank.md
+    - 问题清单: ../notes/questions-in-progress.md
+    - 阅读地图: ../notes/reading-map.md
+  - 参考:
+    - 戈夫曼: ../references/goffman.md
+    - 布迪厄: ../references/bourdieu.md
+    - 米尔斯: ../references/mills.md
+    - 凯利: ../references/kelly.md
+    - 西蒙: ../references/simon.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - meta
+  - tables
+  - toc:
+      permalink: true
+      title: 目录
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zhangllu/self
+  generator: false
+
+copyright: CC BY-NC-SA 4.0

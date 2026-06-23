@@ -1,5 +1,6 @@
 ---
 title: "作品和组织也在反过来塑造我"
+title_en: "Works and Organizations Shape Me in Return"
 chapter: 6
 status: draft
 created: 2026-06-23
