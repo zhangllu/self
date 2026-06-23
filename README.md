@@ -2,7 +2,7 @@
 
 > 身份是脚手架，不是房子。
 
-[![Deploy](https://github.com/zhangllu/self/actions/workflows/mkdocs-deploy.yml/badge.svg)](https://github.com/zhangllu/self/actions/workflows/mkdocs-deploy.yml)
+[![Deploy](https://img.shields.io/badge/deploy-cnb.cool-blue)]()
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Version](https://img.shields.io/badge/version-v0.3.0-green)]()
 
@@ -10,7 +10,7 @@
 
 它介于个人方法论、思想札记和创造者手册之间。
 
-在线阅读：**[https://zhangllu.github.io/self](https://zhangllu.github.io/self)**
+在线阅读：**[https://luyu1008.cnb.cool/self](https://luyu1008.cnb.cool/self)**
 
 ## 核心问题
 
@@ -67,7 +67,7 @@
 ## 项目状态
 
 当前版本：**v0.3**
-部署状态：[GitHub Pages](https://zhangllu.github.io/self) 自动部署
+部署状态：[cnb.cool Pages](https://luyu1008.cnb.cool/self) 自动部署
 当前阶段：七篇核心文章 + 序言 + 结语 + 辅助资料完整
 
 ## License
