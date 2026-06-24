@@ -2,7 +2,7 @@
 
 > 这里是随机漫步的作品策展集，也是一个持续生长的思想实验室。
 
-![readme-banner](images/readme-banner.png)
+![readme-banner](images/image.png)
 
 ## 我是谁
 
