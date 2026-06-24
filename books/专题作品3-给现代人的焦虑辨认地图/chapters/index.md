@@ -47,3 +47,7 @@
 如果你的焦虑已经严重影响睡眠、饮食、工作、学习，或出现惊恐发作、自伤念头，请优先寻求专业心理咨询、精神科医生或当地危机支持资源。
 
 本项目只提供理解框架和自我观察工具。
+> blockquote test
+> test blockquote
+> test blockquote
+> test blockquote

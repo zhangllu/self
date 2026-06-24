@@ -74,7 +74,7 @@ while IFS= read -r file; do
     fi
   done < <(echo "$content")
 
-done < <(git diff --cached --name-only --diff-filter=ACMR -- 'books/*/chapters/*.md' 'books/*/drafts/*.md')
+done < <(git -c core.quotepath=false diff --cached --name-only --diff-filter=ACMR -- 'books/*/chapters/*.md' 'books/*/drafts/*.md')
 
 # === 3. Changelog 更新检查（仅修改的文件） ===
 
@@ -93,12 +93,12 @@ while IFS= read -r file; do
   if [ "$has_content_change" -gt 0 ] && [ "$has_changelog_entry" -eq 0 ]; then
     warn "$file: 内容已修改但 Changelog 未更新"
   fi
-done < <(git diff --cached --name-only --diff-filter=M -- 'books/*/chapters/*.md' 'books/*/drafts/*.md')
+done < <(git -c core.quotepath=false diff --cached --name-only --diff-filter=M -- 'books/*/chapters/*.md' 'books/*/drafts/*.md')
 
 # === 4. README 同步检查 ===
 
-docs_staged=$(git diff --cached --name-only --diff-filter=ACMR -- 'books/*/chapters/*.md' 'books/*/drafts/*.md' 2>/dev/null)
-readme_staged=$(git diff --cached --name-only --diff-filter=ACMR -- 'README.md' 2>/dev/null)
+docs_staged=$(git -c core.quotepath=false diff --cached --name-only --diff-filter=ACMR -- 'books/*/chapters/*.md' 'books/*/drafts/*.md' 2>/dev/null)
+readme_staged=$(git -c core.quotepath=false diff --cached --name-only --diff-filter=ACMR -- 'README.md' 2>/dev/null)
 
 if [ -n "$docs_staged" ] && [ -z "$readme_staged" ]; then
   warn "books/ 下有文件变更但 README.md 未同步更新（目录表/版本号）"
