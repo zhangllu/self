@@ -75,4 +75,13 @@ while IFS= read -r file; do
   fi
 done < <(git diff --cached --name-only --diff-filter=M -- 'docs/*.md')
 
+# === 4. README 同步检查 ===
+
+docs_staged=$(git diff --cached --name-only --diff-filter=ACMR -- 'docs/*.md' 2>/dev/null)
+readme_staged=$(git diff --cached --name-only --diff-filter=ACMR -- 'README.md' 2>/dev/null)
+
+if [ -n "$docs_staged" ] && [ -z "$readme_staged" ]; then
+  warn "docs/ 下有文件变更但 README.md 未同步更新（目录表/版本号）"
+fi
+
 exit $HAD_ERRORS
