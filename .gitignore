@@ -1,3 +1,6 @@
+# macOS system files
+.DS_Store
+
 # Temporary files created during editing/design
 _temp_*
 _design_*
