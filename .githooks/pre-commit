@@ -53,6 +53,26 @@ while IFS= read -r file; do
       error "$file: 第 ${line_num} 行: 使用了 --- 横线分隔符"
     fi
   done < <(echo "$content")
+  # 2c. 禁止正文使用 > 块引用格式（灰色底纹）
+  in_fm_block=0
+  bl_line_num=0
+  while IFS= read -r line; do
+    bl_line_num=$((bl_line_num + 1))
+    # 跳过 YAML frontmatter
+    if [ "$bl_line_num" -eq 1 ] && [[ "$line" =~ ^---[[:space:]]*$ ]]; then
+      in_fm_block=1
+      continue
+    fi
+    if [ "$in_fm_block" -eq 1 ] && [[ "$line" =~ ^---[[:space:]]*$ ]]; then
+      in_fm_block=0
+      continue
+    fi
+    [ "$in_fm_block" -eq 1 ] && continue
+    # 检测行首的 > 块引用
+    if [[ "$line" =~ ^\>[[:space:]] ]]; then
+      error "$file: 第 ${bl_line_num} 行: 使用了 > 块引用格式（灰色底纹）"
+    fi
+  done < <(echo "$content")
 
 done < <(git diff --cached --name-only --diff-filter=ACMR -- 'docs/*.md')
 
