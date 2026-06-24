@@ -19,7 +19,7 @@
 这里收集我围绕不同主题生成的专题作品。每个专题都从一个具体的现象、困惑或问题出发，在阅读、思考、写作和修订中逐渐成形。它们讨论的主题不同，但共享同一种方法：从现象出发，不急着定位，让问题在持续探索中长出自己的结构。
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-v0.5.0-green)]()
+[![Version](https://img.shields.io/badge/version-v0.5.1-green)]()
 
 ## 作品一：身份是持续的生成
 
