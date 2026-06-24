@@ -4,7 +4,7 @@
 
 [![Deploy](https://img.shields.io/badge/deploy-cnb.cool-blue)]()
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-v0.3.0-green)]()
+[![Version](https://img.shields.io/badge/version-v0.3.4-green)]()
 
 这是一本仍在生长中的小册子，讨论一个创造者、研究者或转型中的人，如何不急着给自己定位，而是先靠近那些反复抓住自己的现象、困惑和问题。
 
@@ -27,12 +27,12 @@
 | 序言 | [一本还在生长中的小册子](docs/00-preface.md) | stable |
 | 01 | [我不是没有方向，只是太早想定位](docs/01-too-early-to-position.md) | revised |
 | 02 | [抓住我的，甚至不一定是一个问题](docs/02-before-question-is-phenomenon.md) | draft |
-| 03 | [不是所有关注都要变成一生的事业](docs/03-not-every-interest-is-a-life-work.md) | draft |
-| 04 | [哪些学科、组织和作品正在回答它](docs/04-existing-answers.md) | draft |
-| 05 | [戈夫曼没有先成为"戈夫曼"](docs/05-goffman-did-not-begin-as-goffman.md) | revised |
-| 06 | [作品和组织也在反过来塑造我](docs/06-works-and-organizations-shape-me.md) | draft |
-| 07 | [身份是脚手架，不是房子](docs/07-identity-is-scaffolding.md) | draft |
-| 结语 | [身份是沉淀，不是起点](docs/08-conclusion.md) | draft |
+| 03 | [不必给所有关注同样的分量](docs/03-not-every-interest-is-a-life-work.md) | draft |
+| 04 | [当一个现象抓住我，我如何向智者学习](docs/04-learn-from-wise-thinkers.md) | draft |
+| 05 | [除了读智者，我还如何寻找已有回答](docs/05-existing-answer-map.md) | draft |
+| 06 | [进入之后，作品和组织也在塑造我](docs/06-after-entering-forms-shape-me.md) | draft |
+| 07 | [身份是脚手架，不是房子](docs/07-identity-is-scaffolding-revised.md) | draft |
+| 结语 | [身份是沉淀，不是起点](docs/08-conclusion-revised.md) | draft |
 
 ## 推荐阅读路径
 
@@ -40,20 +40,19 @@
 
 1. [我不是没有方向，只是太早想定位](docs/01-too-early-to-position.md)
 2. [抓住我的，甚至不一定是一个问题](docs/02-before-question-is-phenomenon.md)
-3. [身份是脚手架，不是房子](docs/07-identity-is-scaffolding.md)
+3. [身份是脚手架，不是房子](docs/07-identity-is-scaffolding-revised.md)
 
 ### 如果你正在做作品
 
-1. [不是所有关注都要变成一生的事业](docs/03-not-every-interest-is-a-life-work.md)
-2. [哪些学科、组织和作品正在回答它](docs/04-existing-answers.md)
-3. [作品和组织也在反过来塑造我](docs/06-works-and-organizations-shape-me.md)
+1. [不必给所有关注同样的分量](docs/03-not-every-interest-is-a-life-work.md)
+2. [除了读智者，我还如何寻找已有回答](docs/05-existing-answer-map.md)
+3. [进入之后，作品和组织也在塑造我](docs/06-after-entering-forms-shape-me.md)
 
-### 如果你关心思想人物
+### 如果你关心研究方法
 
-1. [戈夫曼没有先成为"戈夫曼"](docs/05-goffman-did-not-begin-as-goffman.md)
-2. [戈夫曼参考页](references/goffman.md)
-3. [布迪厄参考页](references/bourdieu.md)
-4. [米尔斯参考页](references/mills.md)
+1. [当一个现象抓住我，我如何向智者学习](docs/04-learn-from-wise-thinkers.md)
+2. [除了读智者，我还如何寻找已有回答](docs/05-existing-answer-map.md)
+3. [进入之后，作品和组织也在塑造我](docs/06-after-entering-forms-shape-me.md)
 
 ## 辅助资源
 
@@ -64,9 +63,9 @@
 
 ## 项目状态
 
-当前版本：**v0.3**
+当前版本：**v0.3.4**
 部署状态：[cnb.cool Pages](https://luyu1008.cnb.cool/self) 自动部署
-当前阶段：七篇核心文章 + 序言 + 结语 + 辅助资料完整
+当前阶段：八篇核心文章 + 序言 + 结语 + 辅助资料完整
 
 ## License
 
