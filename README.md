@@ -3,7 +3,7 @@
 > 这里是随机漫步的实验室。
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-v0.4.1-green)]()
+[![Version](https://img.shields.io/badge/version-v0.4.2-green)]()
 
 一个多专题作品仓库。每件专题作品讨论一个独立主题，但共享同一种写作和研究方式——从现象出发，不急着定位。
 
