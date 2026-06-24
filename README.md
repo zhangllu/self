@@ -4,68 +4,43 @@
 
 [![Deploy](https://img.shields.io/badge/deploy-cnb.cool-blue)]()
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-v0.3.6-green)]()
+[![Version](https://img.shields.io/badge/version-v0.4.0-green)]()
 
-这是一本仍在生长中的小册子，讨论一个创造者、研究者或转型中的人，如何不急着给自己定位，而是先靠近那些反复抓住自己的现象、困惑和问题。
+这是一个多小册子仓库。每本小册子讨论一个独立主题，但共享同一种写作和研究方式——从现象出发，不急着定位。
 
-它介于个人方法论、思想札记和创造者手册之间。
+---
 
-## 核心问题
+## 小册子一览
 
+### [学习智者的高阶认知：主动适应复杂社会](books/高阶认知/README.md)
+
+讨论一个创造者、研究者或转型中的人，如何不急着给自己定位，而是先靠近那些反复抓住自己的现象、困惑和问题。它介于个人方法论、思想札记和创造者手册之间。
+
+**状态**：v0.4，八篇核心文章 + 序言 + 结语 + 辅助资料
+
+核心问题：
 - 在身份之前，是什么先抓住了我？
 - 一个问题如何从现象中慢慢长出来？
-- 学科、组织、作品如何帮助我靠近问题？
+- 如何向智者学习，而不只是寻找答案？
 - 作品和组织又如何反过来塑造我？
 - 身份如何成为脚手架，而不是房子？
 
-这不是一本关于"如何找到职业定位"的手册，而是一份关于"如何延迟定位、深入问题、让作品自然长出来"的写作实验。
+### 焦虑的小册子（规划中）
 
-## 阅读目录
+讨论焦虑作为一种现代人的普遍经验——它不是需要被消灭的问题，而是一种可以被理解、被回应、被转化的信号。
 
-| 章节 | 标题 | 状态 |
-|---|---|---|
-| 序言 | [一本还在生长中的小册子](docs/00-preface.md) | stable |
-| 01 | [我不是没有方向，只是太早想定位](docs/01-too-early-to-position.md) | revised |
-| 02 | [抓住我的，甚至不一定是一个问题](docs/02-before-question-is-phenomenon.md) | draft |
-| 03 | [不必给所有关注同样的分量](docs/03-not-every-interest-is-a-life-work.md) | draft |
-| 04 | [当一个现象抓住我，我如何向智者学习](docs/04-learn-from-wise-thinkers.md) | draft |
-| 05 | [除了读智者，我还如何寻找已有回答](docs/05-existing-answer-map.md) | draft |
-| 06 | [进入之后，作品和组织也在塑造我](docs/06-after-entering-forms-shape-me.md) | draft |
-| 07 | [身份认同是持续的生成，不是一次性的确认](docs/07-identity-continuous-becoming-with-references.md) | draft |
-| 结语 | [身份是沉淀，不是起点](docs/08-conclusion-revised.md) | draft |
+**状态**：即将开始
 
-## 推荐阅读路径
+### 更多主题（待定）
 
-### 如果你正在经历身份焦虑
-
-1. [我不是没有方向，只是太早想定位](docs/01-too-early-to-position.md)
-2. [抓住我的，甚至不一定是一个问题](docs/02-before-question-is-phenomenon.md)
-3. [身份认同是持续的生成，不是一次性的确认](docs/07-identity-continuous-becoming-with-references.md)
-
-### 如果你正在做作品
-
-1. [不必给所有关注同样的分量](docs/03-not-every-interest-is-a-life-work.md)
-2. [除了读智者，我还如何寻找已有回答](docs/05-existing-answer-map.md)
-3. [进入之后，作品和组织也在塑造我](docs/06-after-entering-forms-shape-me.md)
-
-### 如果你关心研究方法
-
-1. [当一个现象抓住我，我如何向智者学习](docs/04-learn-from-wise-thinkers.md)
-2. [除了读智者，我还如何寻找已有回答](docs/05-existing-answer-map.md)
-3. [进入之后，作品和组织也在塑造我](docs/06-after-entering-forms-shape-me.md)
+---
 
 ## 辅助资源
 
-- [现象清单](notes/phenomenon-list.md) — 记录尚未变成清晰问题的现象
-- [材料库](notes/material-bank.md) — 收集生活、学科和作品材料
-- [问题清单](notes/questions-in-progress.md) — 正在生长的问题
-- [参考文献](REFERENCES.md) — 引用与延伸阅读
-
-## 项目状态
-
-当前版本：**v0.3.6**
-部署状态：[cnb.cool Pages](https://luyu1008.cnb.cool/self) 自动部署
-当前阶段：八篇核心文章 + 序言 + 结语 + 辅助资料完整
+- [现象清单](books/高阶认知/notes/phenomenon-list.md) — 记录尚未变成清晰问题的现象
+- [材料库](books/高阶认知/notes/material-bank.md) — 收集生活、学科和作品材料
+- [问题清单](books/高阶认知/notes/questions-in-progress.md) — 正在生长的问题
+- [通用参考文献](books/高阶认知/references/REFERENCES.md) — 引用与延伸阅读
 
 ## License
 
